@@ -1,0 +1,128 @@
+body {
+background: #225;
+}
+
+
+h1{
+color: #fff;
+}
+
+
+div#app {
+padding: 50px;
+padding-bottom: 130px;
+background: #733;
+transition: opacity, background 5s;
+border-radius: 25px;
+opacity: 0.6;
+box-shadow: 20px 20px 15px #225;
+}
+
+div#app:hover{
+opacity: 1;
+background: #054;
+}
+
+
+
+div#entrada {
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top:10;
+}
+
+
+
+div#entrada input, button {
+font-size: 18px;
+border-radius: 5px;
+padding: 10px;
+}
+
+div#entrada input {
+width: 70%;
+}
+
+
+.zero{
+background: #fc96;
+margin: 5px;
+border-radius: 15px;
+box-shadow: 20px 20px 25px #789;
+}
+
+
+pre {
+vertical-align: top;
+margin: 10px;
+display: inline-block;
+width: 80px;
+padding: 5px;
+margin: 10px;
+margin-left: -40px;
+font-weight: bold;
+background: #ada;
+color: #a0a;
+list-style-type: none;
+border-radius: 25px;
+border: 2px solid #5d5;
+}
+
+
+
+input[name=date] {
+vertical-align: top;
+margin: 10px 0px;
+display: inline-block;
+text-align: center;
+padding: 6px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+
+.tomorrow{
+background: #5f7;
+}
+.yesterday {
+background: #f75;
+}
+
+.today {
+background: #57f;
+}
+
+
+
+
+li {
+width: 75%;
+display: inline-block;
+padding: 10px 20px;
+margin: 10px;
+font-weight: bold;
+background: #ada;
+color: #a0a;
+list-style-type: none;
+border-radius: 25px;
+border: 2px solid #5d5;
+text-align: justify;
+}
+
+
+li a{
+float: right;
+margin-right: 15px;
+color: #f00;
+text-decoration: none;
+}
+
+
+p {
+float: right;
+text-align: right;
+font-size: 14px;
+margin-top: 40px;
+color: #f99;
+font-weight: bold;
+}
